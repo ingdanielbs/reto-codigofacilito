@@ -29,7 +29,7 @@ const Hours = () => {
     return (
         <div>
             <div style={hoursStyle}>{hours}</div>
-            <div>Horas de apertura: {openHour} a.m. - {closeHour - 1} p.m.</div>
+            <div>Horas de apertura: {openHour} a.m. - {closeHour - 0} p.m.</div>
         </div>
     );
 }
