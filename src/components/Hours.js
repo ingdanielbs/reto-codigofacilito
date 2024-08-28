@@ -12,7 +12,7 @@ const Hours = () => {
 
     if (currentDay >= 1 && currentDay <= 5) {
         openHour = 10;
-        closeHour = 16;
+        closeHour = 17;
     } else {
         openHour = 9;
         closeHour = 20;
@@ -29,7 +29,7 @@ const Hours = () => {
     return (
         <div>
             <div style={hoursStyle}>{hours}</div>
-            <div>Horas de apertura: {openHour} a.m. - {closeHour - 1 + 1} p.m.</div>
+            <div>Horas de apertura: {openHour} a.m. - {closeHour - 1} p.m.</div>
         </div>
     );
 }
